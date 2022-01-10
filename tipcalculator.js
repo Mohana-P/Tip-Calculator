@@ -5,7 +5,7 @@ function calculateTip() {
     var numOfPeople = document.getElementById("peopleamt").value;
   
     //validate input
-    if (billAmt === "" || serviceQual == 0) {
+    if (billAmt === "" || serviceQual == -1) {
       alert("Please enter values");
       return;
     }
